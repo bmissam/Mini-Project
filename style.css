@@ -1,0 +1,89 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #d1d3d1;
+    width: 860px;
+    border-radius: 8px;
+    margin-left:210px;
+    padding: 20px;
+    background-color: white;
+    font-size: 24px;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    background-color: #00ff55;
+}
+
+.question {
+    padding: 10px;
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #00ff55;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input {
+    margin-top: 20px;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+main {
+    background-color: white;
+    width: 900px;
+    position: absolute;
+    left: 220px;
+    margin-top: 30px;
+    border: 2px solid #d1d3d1;
+    border-radius: 8px;
+}
+
+#photo {
+    width: 300px;
+    height: 200px;
+    margin: 20px 30px 20px 300px;
+}
+
+#photo:hover {
+    cursor: pointer;
+}
+
+.button {
+    background-color: greenyellow;
+    border-radius: 5px;
+    border: none;
+    height: 30px;
+    width: 200px;
+    margin-left: 350px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
